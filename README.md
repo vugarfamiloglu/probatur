@@ -164,6 +164,10 @@ WebSocket `/ws` streams:
 - Multiple workspaces side-by-side
 - Saved test profiles ("smoke / full / per-module")
 
+## Screenshot
+
+<img width="1919" height="914" alt="Screenshot_3" src="https://github.com/user-attachments/assets/c16483d9-9d2b-435e-9d78-2c3ca963a724" />
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
