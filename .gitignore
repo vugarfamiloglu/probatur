@@ -1,0 +1,12 @@
+node_modules/
+dist/
+vendor/
+*.log
+.DS_Store
+.idea/
+.vscode/
+.env
+.env.local
+*.tsbuildinfo
+coverage/
+.probatur-state.json

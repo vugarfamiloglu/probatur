@@ -1,0 +1,24 @@
+{
+    "name": "vugarfamiloglu/probatur-toolchain",
+    "description": "Bundled PHP analyzers Probatur falls back to when the inspected project doesn't ship its own vendor/bin/.",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "phpstan/phpstan": "^1.12",
+        "vimeo/psalm": "^5.26",
+        "squizlabs/php_codesniffer": "^3.10",
+        "phpmd/phpmd": "^2.15",
+        "phpunit/phpunit": "^10.5",
+        "pestphp/pest": "^2.36"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        },
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
